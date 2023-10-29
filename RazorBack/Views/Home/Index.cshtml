@@ -1,0 +1,54 @@
+﻿@model QAModel
+@{ ViewData["Title"] = "Вопросы здесь задаю я"; }
+
+    <div class="text-center">
+    <h1 class="display-4">О, великий думатель</h1>
+   
+    @{
+        using (Html.BeginForm("Resolve", "Home", FormMethod.Post))
+        {
+            @Html.ValidationSummary(true);
+
+            <img class="col-mb-4" src="/question.png" width="128" height="128">
+
+            <h1 class="h3 col-mb-3 font-weight-normal">Введите вопрос</h1>
+
+            <div class="form-wrap">
+                <label asp-for="Question" , class="sr-only">Вопрос</label>
+
+                <div>
+                    <input class="form-control" asp-for="Question", placeholder="Вопрос">
+                    <span asp-validation-for="Question" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-wrap">
+                <div>
+                    @if (Model != null) 
+                    { 
+                        <input class="form-control" asp-for="Context", hidden=true, value=@Model.Context/>
+                    }  
+                </div>
+            </div>
+
+            <div class="form-wrap">
+                <label asp-for="Answer" , class="sr-only">Ответ</label>
+
+                @if(Model != null && Model.Answer != null)
+                {
+                     <h1 class="h3 col-mb-3 font-weight-normal">@Model.Answer</h1>
+                }
+                else
+                {
+                    
+                     <div>
+                         <i>Здесь будет ответ на вопрос</i>
+                     </div>
+                }
+               
+            </div>
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Получить ответ на вопрос</button>
+        }
+    }
+    </div>
