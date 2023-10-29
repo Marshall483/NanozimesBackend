@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\REPOS\\UNI\\Combine\\RazorBack\\RazorBack.csproj": {}
+    "C:\\REPOS\\UNI\\NanozimesBackend\\RazorBack\\RazorBack.csproj": {}
   },
   "projects": {
-    "C:\\REPOS\\UNI\\Combine\\RazorBack\\RazorBack.csproj": {
+    "C:\\REPOS\\UNI\\NanozimesBackend\\RazorBack\\RazorBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\REPOS\\UNI\\Combine\\RazorBack\\RazorBack.csproj",
+        "projectUniqueName": "C:\\REPOS\\UNI\\NanozimesBackend\\RazorBack\\RazorBack.csproj",
         "projectName": "RazorBack",
-        "projectPath": "C:\\REPOS\\UNI\\Combine\\RazorBack\\RazorBack.csproj",
+        "projectPath": "C:\\REPOS\\UNI\\NanozimesBackend\\RazorBack\\RazorBack.csproj",
         "packagesPath": "C:\\Users\\al.putilin\\.nuget\\packages\\",
-        "outputPath": "C:\\REPOS\\UNI\\Combine\\RazorBack\\obj\\",
+        "outputPath": "C:\\REPOS\\UNI\\NanozimesBackend\\RazorBack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

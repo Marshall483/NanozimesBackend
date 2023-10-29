@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5Fqi+OaKBKTLhqCEZCnYsgIA1W/ZY78f+z3p+T1TUhMSX8OLaGDq2yKrfL5vRAocpa4+XJKIrSzozO808x14sA==",
+  "dgSpecHash": "aMW5bfsp1j0M+4RJJb+AZEiXtsEy76JakAnh//ve6dnUYbKx6zoeAFxM6rJXaTElhTz0PeSS0qeBQb9qnn7BdA==",
   "success": true,
-  "projectFilePath": "C:\\REPOS\\UNI\\Combine\\RazorBack\\RazorBack.csproj",
+  "projectFilePath": "C:\\REPOS\\UNI\\NanozimesBackend\\RazorBack\\RazorBack.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\al.putilin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
